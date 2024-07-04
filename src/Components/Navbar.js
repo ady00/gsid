@@ -3,7 +3,6 @@ import { Disclosure } from "@headlessui/react";
 import {
   MenuIcon,
   XIcon,
-  ChevronDownIcon,
   SunIcon,
   MoonIcon,
 } from "@heroicons/react/outline";
@@ -56,7 +55,7 @@ export default function Navbar(props) {
   return (
     <Disclosure
       as="nav"
-      className="relative bg-gray-900 border-0  border-b-red-700 border-b-8 z-20 transition-height duration-300 ease-in-out"
+      className="relative bg-gray-900 border-0  border-b-amber-500 border-b-8 z-20 transition-height duration-300 ease-in-out"
     >
       {({ open }) => (
         <>
@@ -80,7 +79,7 @@ export default function Navbar(props) {
                 >
                   
                   <div className="ml-2 my-2">
-                    <span className="text-2xl font-[900] text-white dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-red-600 dark:via-red-600 dark:to-red-600 ">
+                    <span className="text-2xl font-[900] text-white dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-red-500 dark:via-red-600 dark:to-amber-700 ">
                       Golden State MUN
                     </span>
                     

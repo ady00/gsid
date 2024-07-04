@@ -28,54 +28,48 @@ export default function Main(props) {
       }
     >
       <Navbar page="main" dark={props.dark} setDark={props.setDark} />
-      <Banner />
 
-      <section className="relative duration-150">
+
+     
+
+    <section className="py-24 sm:px-6 lg:py-50 relative duration-150 bg-[url(https://cloud-jz4g4s1rx-hack-club-bot.vercel.app/0hero.png)] bg-cover bg-center before:absolute before:inset-0 before:bg-gradient-to-r before:from-white/70 before:via-white/50 before:to-white/30">
         <div className="max-w-7xl mx-auto ">
-          <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 duration-150 2xl:pb-20 lg:pb-12 lg:max-w-[44rem] lg:w-full ">
-            <svg
-              className="hidden lg:block absolute right-0 inset-y-0 h-full w-56 text-white  duration-150 dark:text-gray-900 transform translate-x-1/2"
-              fill="currentColor"
-              viewBox="0 0 100 100"
-              preserveAspectRatio="none"
-              aria-hidden="true"
-            >
-              <polygon points="50,0 100,0 50,100 0,100" />
-            </svg>
-
+          <div className="relative z-10 pb-8 duration-150 2xl:pb-20 lg:pb-12 lg:max-w-[44rem] lg:w-full ">
+        
             <div className="relative pt-1 px-4 sm:px-6 lg:px-8 "></div>
 
             <section className="mt-4 mx-auto max-w-7xl px-4 sm:px-6 2xl:mt-14 lg:mt-6 lg:px-8 py-3">
+
+
               <div className="relative">
                 <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent  sm:text-6xl sm:pb-3">
-                  <span className=" duration-150 tiny:text-[3rem] text-4xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700 bg-clip-text bg-gradient-to-l from-red-600 via-red-700 to-red-700">
-                    Stand out {" "}
-                  </span>
-                  <span className="text-[rem] tiny:text-[3.5rem] sm:text-5xl font-[900] text-transparent bg-clip-text bg-gradient-to-r from-gray-500 dark:from-gray-400 to-gray-500 dark:to-gray-600  inline ">
-                   from the crowd.
-                  </span>
+                <span className=" duration-150 tiny:text-[3rem] text-4xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700 bg-clip-text bg-gradient-to-l from-amber-600 via-red-700 to-amber-700 dark:bg-gradient-to-l dark:from-amber-600 dark:via-red-700 dark:to-amber-700">
+                  Stand out {" "}
+                </span>
+                <span className="text-[rem] tiny:text-[3.5rem] sm:text-5xl font-[900] text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-500  inline ">
+                  from the crowd.
+                </span>
                   <div className="w-24 absolute h-40 ml-8 overflow-hidden tiny:hidden inline-block">
                     <div className=" h-24 bg-red-700 -rotate-45 transform origin-top-right"></div>
                   </div>
                 </h1>
-                <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-800 duration-150"></div>
+                <div className="mt-3 mb-6 duration-150"></div>
+                
                 <p className=" duration-150 pb-4 md:pb-0 mt-3 text-gray-500 dark:text-gray-400  z-10 relative sm:mt-5 text-md 2xl:text-lg  sm:mx-auto md:mt-5 lg:mx-0">
-                  <div className="w-4 absolute  overflow-hidden   inline-block">
+                
+                <div className="w-4 absolute  overflow-hidden inline-block">
                     <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
                   </div>
-                  <div className="ml-6 mb-4  duration-150 lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a]  rounded-xl p-2">
-                    <b>Golden State MUN</b> is a 501c3 accredited nonprofit organization which aims to
-                    promote leadership and diplomacy
-                    through simulations of the United Nations.{" "}
-                  </div>
-                  <div className="w-4 absolute  overflow-hidden   inline-block">
-                    <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
-                  </div>
-                  <div className="ml-6  duration-150 lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a] rounded-xl p-2 ">
-                  As a part of the Golden State Independent Delegation, you'll learn not only about leadership and speaking skills, but so much more – all without the usual politics of MUN clubs.
+                
+                <p className="ml-6 mb-4  lg:mr-6 duration-150 mt-4 max-w-lg sm:text-xl/relaxed text-gray-900">
+                Golden State MUN is a 501c3 accredited nonprofit organization which aims to promote leadership and 
+                diplomacy through simulations of the United Nations.
+                </p>
 
+                  
+  
+                  
 
-                  </div>
                 </p>
                 <div className="mt-8 py-2 sm:mt-12 sm:flex ">
                   <div className="sm:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
@@ -94,22 +88,7 @@ export default function Main(props) {
             </section>
           </div>
         </div>
-        <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-gray-900 ">
-          <div className="w-11 absolute overflow-hidden lg:hidden inline-block">
-            <div className="h-16 bg-white dark:bg-gray-900 rotate-45 transform origin-top-right"></div>
-          </div>
-          <img
-            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none lg:dark:opacity-60 "
-            src="https://www.ri.org//content/uploads/2021/03/GIRA.jpg"
-            alt="ppl gamin"
-            loading="lazy"
-          />
-
-          <div className="absolute left-0 right-0 lg:right-1/2 xl:right-3/4 top-0 bottom-0 inset-0 opacity-[10%] transform-gpu animate-blob1 rounded-full blur-2xl bg-red-900 "></div>
-          <div className="w-11 absolute right-0 bottom-0 overflow-hidden lg:hidden inline-block">
-            <div className=" h-16  bg-slate-100 dark:bg-[#182133] rotate-45 transform origin-bottom-left"></div>
-          </div>
-        </div>
+        
       </section>
 
 
