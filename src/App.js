@@ -1,9 +1,10 @@
 import "./App.css";
 import Main from "./Pages/Main.tsx";
 
-import Sponsors from "./Pages/Sponsors.tsx";
 import Staff from "./Pages/Staff.tsx";
 import Publications from "./Pages/Publications.tsx";
+import Outreach from "./Pages/Outreach.tsx";
+
 
 import NotFound from "./Pages/Error.tsx";
 
@@ -31,10 +32,7 @@ function App() {
           path="/"
           element={<Main dark={dark} setDark={setDark} />}
         ></Route>
-        <Route
-          path="donate"
-          element={<Sponsors dark={dark} setDark={setDark} />}
-        ></Route>
+        
         <Route
           path="staff"
           element={<Staff dark={dark} setDark={setDark} />}
@@ -44,6 +42,11 @@ function App() {
         <Route
           path="conferences"
           element={<Publications dark={dark} setDark={setDark} />}
+        ></Route>
+
+        <Route
+          path="outreach"
+          element={<Outreach dark={dark} setDark={setDark} />}
         ></Route>
 
 

@@ -12,8 +12,9 @@ const navigation = [
   { name: "Home", href: "/", current: true, page: "main" },
   { name: "Staff", href: "/staff", current: true, page: "staff" },
   { name: "Conferences", href: "/conferences", current: true, page: "publications" },
+  { name: "Instagram Outreach", href: "/outreach", current: true, page: "outreach" },
 
-  { name: "Donate", href: "https://www.paypal.com/donate/", current: true},
+
   // {
   //   name: "Leaderboard",
   //   href: "/leaderboard",
@@ -30,19 +31,10 @@ const navigation = [
 const mobileNavigation = [
   { name: "Home", href: "/", current: true, page: "main" },
   { name: "Staff", href: "/staff", current: true, page: "staff" },
-  { name: "Donate", href: "https://www.paypal.com/donate/?cmd=_donations&business=SZJ8WBPGSXNJJ&currency_code=USD&Z3JncnB0=", current: true},
-  { name: "Publications", href: "/publications", current: true, page: "publications" },
+  { name: "Conferences", href: "/conferences", current: true, page: "publications" },
+  { name: "Instagram Outreach", href: "/outreach", current: true, page: "outreach" },
 
-  // {
-  //   name: "Leaderboard",
-  //   href: "/leaderboard",
-  //   current: true,
-  //   page: "leaderboard",
-  // },
-  
-
-  // { name: "Portal", href: "/portal", current: true, page: },
-  // { name: "Retreival", href: "/retreival", current: true, page: },
+ 
 ];
 
 function classNames(...classes) {

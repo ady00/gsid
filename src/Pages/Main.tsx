@@ -28,7 +28,7 @@ export default function Main(props) {
       }
     >
       <Navbar page="main" dark={props.dark} setDark={props.setDark} />
-
+      <Banner />
 
      
 
@@ -61,10 +61,12 @@ export default function Main(props) {
                     <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
                   </div>
                 
-                <p className="ml-6 mb-4  lg:mr-6 duration-150 mt-4 max-w-lg sm:text-xl/relaxed text-gray-900">
-                Golden State MUN is a 501c3 accredited nonprofit organization which aims to promote leadership and 
-                diplomacy through simulations of the United Nations.
-                </p>
+                <i>
+                  <p className="ml-6 mb-4 lg:mr-6 duration-150 mt-4 max-w-lg sm:text-xl/relaxed text-gray-900">
+                  Golden State MUN is a 501c3 accredited nonprofit organization which aims to promote leadership and 
+                  diplomacy through simulations of the United Nations. Any 7th to 12th grader from the Bay Area can join.
+                  </p>
+                </i>
 
                   
   
@@ -148,10 +150,10 @@ export default function Main(props) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="self-center ">
               <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">
-                Conferences
+                Our Benefits
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-300 ">
-                Our History
+                Why Us?
               </p>
               <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto dark:text-gray-400 ">
                 <div className="md:mr-12">
@@ -168,37 +170,61 @@ export default function Main(props) {
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
-                 Conference
+                 Training
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
-                UC Davis Model United Nations Conference
+                One-on-One training with Delegates
                 </h3>
                 <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                  Typically our last conference of the year, DMUNC is a fun, 2-night trip about 2 hours from Pleasanton. With a variety of double-delegation and crisis committees, members can try their hand at newer forms of MUN!
+                  We want to see each and every one of our delegates succeed – and for that reason, we offer coaching sessions with delegates free of charge to prepare for conferences. 
                 </p>
               </li>
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
-                  Conference
+                  Flexibility
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
-                Golden State Model Nations Conference
+                Personalized picks for committee assignments
                 </h3>
                 <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                  GSMUNC is one of Golden State's flagship conferences held at Granite Bay High School, typically around Febuary. It features a number of veteran and novice committees desiged to cater to all levels of skill!
+                  At GSID, we can ensure you recieve your top conference picks through open communication and planning in advance, ensuring you do your best when conference day rolls around.
                 </p>
               </li>
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
-                  Conference
+                  Exploration
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
-                  BruinMUN
+                  Travel to out-of-state conferences
                 </h3>
                 <p className="mb-2 text-base font-normal text-gray-500  dark:text-gray-400">
-                  Our first travel conference of the year, BruinMUN serves as a great introduction for our delegates to a world of more competitive Model United Nations, with some of California's best delegates attending. Sign up today!
+                    GSID plans a number of travel conferences across California and the greater United States for our members. Join today!
+                </p>
+              </li>
+              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
+                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
+                <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
+                  Connections
+                </time>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
+                  Make friends and contacts across the globe
+                </h3>
+                <p className="mb-2 text-base font-normal text-gray-500  dark:text-gray-400">
+                    The conferences we host and attend attract top Model UN talent from not only across the Bay, but also the world. 
+                </p>
+              </li>
+              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
+                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
+                <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
+                  Join Now!
+                </time>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
+                  Any School can Join
+                </h3>
+                <p className="mb-2 text-base font-normal text-gray-500  dark:text-gray-400">
+                    The best part about GSID is our flexibility! Anyone from any school in the Bay is able to join us right now for our next conference. What are you waiting for?
                 </p>
               </li>
             </ol>
@@ -228,7 +254,7 @@ export default function Main(props) {
             Conferences hosted/attended each year
 						</dt>
 						<dd className="order-1 text-5xl font-extrabold leading-none text-white">
-							8+ 
+							16+ 
 						</dd>
 					</div>
 					<div className="flex flex-col mt-10 sm:mt-0">
