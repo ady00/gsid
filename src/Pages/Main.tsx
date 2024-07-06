@@ -246,7 +246,7 @@ export default function Main(props) {
 							Members
 						</dt>
 						<dd className="order-1 text-5xl font-extrabold leading-none text-white">
-							50
+							100+
 						</dd>
 					</div>
 					<div className="flex flex-col mt-10 sm:mt-0">
