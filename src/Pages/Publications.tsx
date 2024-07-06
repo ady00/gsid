@@ -121,6 +121,7 @@ export default function Publications(props) {
                 <i>November 8-10, 2024 | UCLA Campus<br></br></i><br></br>
                 BruinMUN is our first travel conference of the year, hosted by UCLA. The conference will provide veteran delegates large committees to succeed in and give novice delegates a taste of competitive Model UN. 
               </p>
+              Sign up today! <u><a href = "https://bit.ly/BruinGS">https://bit.ly/BruinGS</a></u>
             </div>
           </div>
 
